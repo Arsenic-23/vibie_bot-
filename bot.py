@@ -10,7 +10,7 @@ from telegram.ext import (
     MessageHandler,
     filters,
 )
-from vibie_bot.handlers import start, help_command, join, play, queue, skip, like
+from handlers import start, help_command, join, play, queue, skip, like
 
 # Enable logging
 logging.basicConfig(
